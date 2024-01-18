@@ -3,6 +3,7 @@ import { callApi } from "../../domain/api";
 import { Link, useParams } from "react-router-dom";
 import { Box, Button, Typography } from "@mui/material";
 import classes from "./style.module.scss";
+import DetailCard from "../../components/DetailCard";
 
 const Detail = () => {
   const [user, setUser] = useState({});
@@ -31,28 +32,7 @@ const Detail = () => {
         </Button>
       </Link>
       <Box>
-        <table className={classes["list-wrapper"]}>
-          <tr>
-            <td>id</td>
-            <td>: {user.id}</td>
-          </tr>
-          <tr>
-            <td>provider</td>
-            <td>: {user.provider}</td>
-          </tr>
-          <tr>
-            <td>email</td>
-            <td>: {user.email}</td>
-          </tr>
-          <tr>
-            <td>password</td>
-            <td>: {user.password}</td>
-          </tr>
-          <tr>
-            <td>category</td>
-            <td>: {user.category}</td>
-          </tr>
-        </table>
+        <DetailCard user={user} />
       </Box>
     </>
   );

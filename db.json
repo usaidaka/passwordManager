@@ -1,20 +1,6 @@
 {
   "password": [
     {
-      "id": "3",
-      "provider": "twitter.com",
-      "email": "dzul@twitter.com",
-      "password": "123Bethebest",
-      "category": "personal"
-    },
-    {
-      "id": "4",
-      "provider": "whatsapp.com",
-      "email": "imin@whatsapp.com",
-      "password": "best123Bethe",
-      "category": "work"
-    },
-    {
       "id": "5",
       "provider": "telegram.com",
       "email": "alim@telegram.com",

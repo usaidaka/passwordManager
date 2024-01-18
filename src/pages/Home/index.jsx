@@ -72,9 +72,9 @@ const Home = () => {
           <Box>
             <Typography variant="h6">Create Account</Typography>
             <form onSubmit={handleSubmit(onSubmit)}>
-              <Box>
+              <Box className={classes["form-wrapper"]}>
                 <label htmlFor="">website / provider</label>
-                <Input
+                <input
                   {...register("provider", {
                     required: true,
                     maxLength: 20,
@@ -89,9 +89,9 @@ const Home = () => {
                   <p>provider cannot exceed 20 characters</p>
                 )}
               </Box>
-              <Box>
+              <Box className={classes["form-wrapper"]}>
                 <label htmlFor="">email</label>
-                <Input
+                <input
                   {...register("email", {
                     required: true,
                     minLength: 5,
@@ -106,9 +106,9 @@ const Home = () => {
                   <p>password cannot less then 5 characters</p>
                 )}
               </Box>
-              <Box>
+              <Box className={classes["form-wrapper"]}>
                 <label htmlFor="">password</label>
-                <Input
+                <input
                   type="password"
                   placeholder="input password"
                   {...register("password", {
@@ -128,7 +128,7 @@ const Home = () => {
                   <p>password at least contain 1 special character</p>
                 )}
               </Box>
-              <Box>
+              <Box className={classes["form-wrapper"]}>
                 <label htmlFor="">category</label>
                 <select
                   name=""

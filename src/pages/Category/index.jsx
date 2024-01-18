@@ -4,14 +4,13 @@ import { callApi } from "../../domain/api";
 import Typography from "@mui/material/Typography";
 import { Box } from "@mui/material";
 import TableCustom from "../../components/TableCustom";
+import classes from "./style.module.scss";
 
 const head = ["Provider", "Email", "Category"];
 
 const Category = () => {
   const { name } = useParams();
   const [datas, setDatas] = useState([]);
-
-  console.log(name);
 
   useEffect(() => {
     fetchUserByCategory();
@@ -35,7 +34,9 @@ const Category = () => {
       <Typography variant="h4" color="initial">
         {name.toUpperCase()}
       </Typography>
-      <TableCustom head={head} data={datas} />
+      <Box className={classes["content-container"]}>
+        <TableCustom head={head} data={datas} />
+      </Box>
     </Box>
   );
 };

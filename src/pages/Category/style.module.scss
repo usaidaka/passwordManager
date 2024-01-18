@@ -1,0 +1,7 @@
+@import "../../styles/base.scss";
+
+.content-container {
+  @include apply-at-sm-size {
+    max-width: 360px;
+  }
+}

@@ -7,10 +7,11 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-import { Box, Button } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import PopUp from "../PopUp";
 import classes from "./style.module.scss";
 import { Link } from "react-router-dom";
+import DetailCard from "../DetailCard";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -60,8 +61,17 @@ export default function TableCustom({ head, data, action }) {
                     </Button>
                   </Link>
                   <PopUp title="delete">
-                    <h1>yakin mau hapus?</h1>
-                    <Button onClick={() => action(item.id)}>ya, yakin</Button>
+                    <Typography variant="body1" color="initial">
+                      Are you sure wanna delete this account?
+                    </Typography>
+                    <DetailCard user={item} />
+                    <Button
+                      onClick={() => action(item.id)}
+                      variant="contained"
+                      color="error"
+                    >
+                      Yes I'm sure
+                    </Button>
                   </PopUp>
                 </Box>
               </StyledTableCell>
