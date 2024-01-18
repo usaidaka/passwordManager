@@ -1,0 +1,123 @@
+{
+  "password": [
+    {
+      "id": "3",
+      "provider": "twitter.com",
+      "email": "dzul@twitter.com",
+      "password": "123Bethebest",
+      "category": "personal"
+    },
+    {
+      "id": "4",
+      "provider": "whatsapp.com",
+      "email": "imin@whatsapp.com",
+      "password": "best123Bethe",
+      "category": "work"
+    },
+    {
+      "id": "5",
+      "provider": "telegram.com",
+      "email": "alim@telegram.com",
+      "password": "Bethe123best",
+      "category": "work"
+    },
+    {
+      "id": "6",
+      "provider": "pinterest.com",
+      "email": "yayuk@pinterest.com",
+      "password": "thebest123Be",
+      "category": "work"
+    },
+    {
+      "id": "7",
+      "provider": "unsplash.com",
+      "email": "salim@unsplash.com",
+      "password": "Bebest123the",
+      "category": "work"
+    },
+    {
+      "id": "b3a7",
+      "provider": "ette",
+      "email": "uszaidalkamil@gmail.com",
+      "password": "qweqwe2#",
+      "category": "work"
+    },
+    {
+      "id": "9548",
+      "provider": "asdd",
+      "email": "asdd@gmail.com",
+      "password": "asdasd@",
+      "category": "family"
+    },
+    {
+      "id": "43f4",
+      "provider": "etas",
+      "email": "adsa@gaga.com",
+      "password": "asdaw@",
+      "category": "family"
+    },
+    {
+      "id": "2557",
+      "provider": "etas",
+      "email": "adsa@gaga.com",
+      "password": "asdaw@",
+      "category": "family"
+    },
+    {
+      "id": "b653",
+      "provider": "etas",
+      "email": "adsa@gaga.com",
+      "password": "asdaw@",
+      "category": "family"
+    },
+    {
+      "id": "a2a8",
+      "provider": "asdasd",
+      "email": "asd@gmail.com",
+      "password": "pasasdwqe#",
+      "category": "family"
+    },
+    {
+      "id": "9ec5",
+      "provider": "asdasd",
+      "email": "ujedkemal@gmail.com",
+      "password": "asdqw@",
+      "category": "family"
+    },
+    {
+      "id": "1f57",
+      "provider": "asdasd",
+      "email": "ujedkemal@gmail.com",
+      "password": "asdqw@",
+      "category": "family"
+    },
+    {
+      "id": "7817",
+      "provider": "asdasd",
+      "email": "ujedkemal@gmail.com",
+      "password": "asdqw@",
+      "category": "family"
+    },
+    {
+      "id": "2369",
+      "provider": "asdasd",
+      "email": "ujedkemal@gmail.com",
+      "password": "asdqw@",
+      "category": "family"
+    },
+    {
+      "id": "3978",
+      "provider": "asdasdsad",
+      "email": "asdasd@gmail.com",
+      "password": "asdasd#",
+      "category": "personal"
+    },
+    {
+      "id": "48d5",
+      "provider": "asdasd",
+      "email": "asdasd@gmail.com123",
+      "password": "asdasd#",
+      "category": "family"
+    }
+  ]
+}

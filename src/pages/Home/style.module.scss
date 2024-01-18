@@ -1,0 +1,17 @@
+@import "../../styles/base.scss";
+
+.home-container {
+  .header-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .content-container {
+    @include apply-at-sm-size {
+      max-width: 452px;
+      background-color: red;
+    }
+  }
+}
